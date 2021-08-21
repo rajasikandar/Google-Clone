@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
 import API_KEY from "./keys";
 
-/*const CONTEXT_KEY = "CONTEXT_KEY";*/
+/*const CONTEXT_KEY = "CONTEXT_KEY_HERE";*/
 /* Which search Engine to use using key*/
-const CONTEXT_KEY = "748ad978bb38f0827";
+const CONTEXT_KEY = "CONTEXT_KEY_HERE";
 /*The Below is an example of a Custom Hook i.e useGoogleSearch */
 const useGoogleSearch = (term) => {
   const [data, setData] = useState(null);
