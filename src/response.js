@@ -16,7 +16,7 @@ export default {
         inputEncoding: "utf8",
         outputEncoding: "utf8",
         safe: "off",
-        cx: "748ad978bb38f0827",
+        cx: "CONTEXT_KEY_HERE",
       },
     ],
     nextPage: [
@@ -29,7 +29,7 @@ export default {
         inputEncoding: "utf8",
         outputEncoding: "utf8",
         safe: "off",
-        cx: "748ad978bb38f0827",
+        cx: "CONTEXT_KEY_HERE",
       },
     ],
   },
