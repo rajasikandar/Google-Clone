@@ -2,11 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+import reportWebVitals from "./reportWebVitals";
+import reducer, { initialState } from "./reducer";
+import { StateProvider } from "./StateProvider";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/*StateProvider Provide Data Layer Around our app to recognize make a file StateProvider.js check video how you can use react context api*/}
+    <StateProvider initialState={initialState} reducer={reducer}>
+      <App/>
+    </StateProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
