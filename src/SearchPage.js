@@ -19,7 +19,7 @@ function SearchPage() {
   {
     /* What Ever we Search It will Come in this below Search { term } Trasferring the keyword or term to the next Page*/
   }
-  const [{ term = "tesla" }, dispatch] = useStateValue();
+  const [{ term }, dispatch] = useStateValue();
   /* When Google Search took a term the term us pulling from the data layer */
 
   //This is our LIVE API CALL
@@ -30,7 +30,7 @@ function SearchPage() {
   /*
     GET API KEY FROM => https://developers.google.com/custom-search/v1/using_rest
     To use Google Search API also go to use withGoogle Search Engines visit -> https://cse.google.com/cse/create/ -> www.google.com and Select Google Search Engine And Crete it -> Edit Search Engine and then Setup -> ON Search the entire web and Copy Search engine ID i.e
-748ad978bb38f0827
+CONTEXT_KEY
     */
   console.log(data);
   return (
